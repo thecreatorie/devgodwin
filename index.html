@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>DEVGODWIN — Full-Stack Developer · Designer · Technical Director</title>
+  <meta name="description" content="Full-stack developer and designer with 8+ years building secure, beautiful, mobile-first web experiences — from fintech to regulated industries.">
+  <meta property="og:title" content="DEVGODWIN — Full-Stack Developer · Designer">
+  <meta property="og:description" content="8+ years of full-stack development, UI/UX design, and creative direction.">
+  <meta property="og:type" content="website">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,100..900&family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚡</text></svg>">
+</head>
+<body>
+
+  <!-- Cinematic background: video if provided, animated canvas aurora as ever-present base -->
+  <div class="bg-stage" aria-hidden="true">
+    <canvas id="bg-canvas"></canvas>
+    <video id="bg-video" autoplay muted loop playsinline preload="auto">
+      <!-- Drop your own loop at assets/bg-video.mp4 — canvas aurora shows until/unless it loads -->
+      <source src="assets/bg-video.mp4" type="video/mp4">
+    </video>
+    <div class="bg-grain"></div>
+    <div class="bg-vignette"></div>
+  </div>
+
+  <!-- Progress bar -->
+  <div class="scroll-progress" aria-hidden="true"><span id="progress-bar"></span></div>
+
+  <!-- Nav -->
+  <header class="nav" id="nav">
+    <a class="nav-logo" href="#top">DEV<span>GODWIN</span></a>
+    <nav class="nav-links" id="nav-links" aria-label="Primary">
+      <a href="#work">Work</a>
+      <a href="#expertise">Expertise</a>
+      <a href="#about">About</a>
+      <a href="#contact" class="nav-cta">Let's Talk</a>
+    </nav>
+    <button class="nav-burger" id="nav-burger" aria-label="Menu" aria-expanded="false">
+      <span></span><span></span>
+    </button>
+  </header>
+
+  <main id="top">
+
+    <!-- ============ HERO ============ -->
+    <section class="hero">
+      <p class="hero-kicker reveal">Los Angeles · Worldwide</p>
+      <h1 class="hero-title">
+        <span class="line"><span class="reveal-line">DEVELOPER.</span></span>
+        <span class="line"><span class="reveal-line">DESIGNER.</span></span>
+        <span class="line accent"><span class="reveal-line">TECHNICAL&nbsp;GENIUS.</span></span>
+      </h1>
+      <div class="hero-sub reveal">
+        <p>8+ years of full-stack engineering and creative direction —
+        building secure, beautiful, mobile-first experiences for fintech,
+        healthcare, and the industries nobody else will touch.</p>
+        <a class="btn-ghost" href="#work">See the work <span class="arrow">↓</span></a>
+      </div>
+      <div class="hero-scroll reveal" aria-hidden="true"><span></span></div>
+    </section>
+
+    <!-- ============ MARQUEE ============ -->
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee-track">
+        <span>FULL-STACK ENGINEERING — UI/UX DESIGN — BRAND DIRECTION — MOBILE-FIRST — SECURE &amp; COMPLIANT — AI-POWERED REFACTORING — </span>
+        <span>FULL-STACK ENGINEERING — UI/UX DESIGN — BRAND DIRECTION — MOBILE-FIRST — SECURE &amp; COMPLIANT — AI-POWERED REFACTORING — </span>
+      </div>
+    </div>
+
+    <!-- ============ WORK / EXPERIENCE ============ -->
+    <section class="section" id="work">
+      <div class="section-head reveal">
+        <span class="section-num">01</span>
+        <h2>Selected<br>Experience</h2>
+      </div>
+
+      <div class="exp-list">
+
+        <article class="exp reveal">
+          <div class="exp-meta">
+            <span class="exp-tag">Fintech</span>
+            <span class="exp-tag">Plasmic</span>
+          </div>
+          <h3>Evergreen Money</h3>
+          <p class="exp-role">Developer &amp; Design Partner to the CEO</p>
+          <p>Worked directly with CEO Bill Harris — founding CEO of PayPal and
+          Intuit — to design and build the digital edition of his book in
+          Plasmic, engineered to launch in lockstep with the product release.
+          High-visibility, executive-level collaboration from concept to ship.</p>
+        </article>
+
+        <article class="exp reveal">
+          <div class="exp-meta">
+            <span class="exp-tag">Healthcare</span>
+            <span class="exp-tag">Enterprise</span>
+          </div>
+          <h3>Meredith — Allergan</h3>
+          <p class="exp-role">Developer, Culver City</p>
+          <p>Delivered digital work on the Allergan account inside one of the
+          country's largest media companies — enterprise process, pharma-grade
+          review cycles, zero-margin-for-error execution.</p>
+        </article>
+
+        <article class="exp reveal">
+          <div class="exp-meta">
+            <span class="exp-tag">Startup</span>
+            <span class="exp-tag">HealthTech</span>
+          </div>
+          <h3>PatientPop</h3>
+          <p class="exp-role">Developer, Santa Monica — Startup Phase</p>
+          <p>Joined during the ground-floor startup phase, building and shipping
+          fast where every deploy mattered — the kind of environment where
+          full-stack range isn't a bonus, it's the job.</p>
+        </article>
+
+        <article class="exp reveal">
+          <div class="exp-meta">
+            <span class="exp-tag">Brand</span>
+            <span class="exp-tag">Print + Digital</span>
+          </div>
+          <h3>MDM Design Studio</h3>
+          <p class="exp-role">Full Marketing &amp; Creative Control</p>
+          <p>Owned the brand end-to-end — online and in print. Strategy, identity,
+          web, campaigns: one consistent voice across every surface.</p>
+        </article>
+
+        <article class="exp reveal">
+          <div class="exp-meta">
+            <span class="exp-tag">Brand</span>
+            <span class="exp-tag">Fitness</span>
+          </div>
+          <h3>Pole Fitness Studio</h3>
+          <p class="exp-role">Full Marketing &amp; Creative Control</p>
+          <p>Complete creative ownership of the brand across web, social, and
+          print — turning a local studio into a polished, recognizable identity.</p>
+        </article>
+
+        <article class="exp reveal">
+          <div class="exp-meta">
+            <span class="exp-tag">Regulated</span>
+            <span class="exp-tag">Security</span>
+          </div>
+          <h3>High-Compliance Sectors</h3>
+          <p class="exp-role">Independent Full-Stack Developer — 8 Years</p>
+          <p>Cannabis. Adult entertainment. Legal gray zones where most
+          developers won't go. I build secure solutions engineered to operate
+          inside strict legal regulations — payments, privacy, age-gating,
+          and compliance handled right the first time.</p>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- ============ EXPERTISE ============ -->
+    <section class="section" id="expertise">
+      <div class="section-head reveal">
+        <span class="section-num">02</span>
+        <h2>What I<br>Bring</h2>
+      </div>
+
+      <div class="skill-grid">
+        <div class="skill reveal">
+          <h4>Full-Stack Development</h4>
+          <p>8 years independent — front to back, architecture to deploy.
+          I don't hand off; I ship the whole thing.</p>
+        </div>
+        <div class="skill reveal">
+          <h4>UI / UX &amp; Design Functionality</h4>
+          <p>Specialist in mobile-friendly experiences that don't just look
+          right — they behave right, on every screen.</p>
+        </div>
+        <div class="skill reveal">
+          <h4>Brand &amp; Creative Direction</h4>
+          <p>Full marketing control across online and print. Identity,
+          voice, and execution as one system.</p>
+        </div>
+        <div class="skill reveal">
+          <h4>Secure &amp; Compliant Builds</h4>
+          <p>Battle-tested in high-risk legal sectors. Solutions that satisfy
+          regulators and still convert.</p>
+        </div>
+        <div class="skill reveal">
+          <h4>AI-Powered Refactoring</h4>
+          <p>Currently building systems with Claude that refactor and
+          modernize existing SaaS websites — legacy in, clean out.</p>
+        </div>
+        <div class="skill reveal">
+          <h4>Visual Builders &amp; Modern Stacks</h4>
+          <p>Plasmic, headless architectures, and whatever the project
+          actually needs — tools chosen for outcomes, not hype.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ ABOUT ============ -->
+    <section class="section about" id="about">
+      <div class="section-head reveal">
+        <span class="section-num">03</span>
+        <h2>About</h2>
+      </div>
+      <div class="about-body reveal">
+        <p class="about-lede">I've spent nearly a decade as an independent
+        full-stack developer — which means I've been the engineer, the designer,
+        the brand director, and the person accountable for all three at once.</p>
+        <p>From building alongside a legendary fintech CEO at Evergreen Money,
+        to enterprise pharma work on the Allergan account, to startup-phase
+        velocity at PatientPop, to complete creative ownership of studio brands —
+        the throughline is simple: <strong>I take full responsibility for the
+        outcome.</strong></p>
+        <p>Today that includes pioneering AI-assisted development workflows,
+        using Claude to build systems that refactor existing SaaS websites
+        faster and cleaner than traditional rewrites.</p>
+      </div>
+    </section>
+
+    <!-- ============ CONTACT ============ -->
+    <section class="section contact" id="contact">
+      <p class="contact-kicker reveal">Have a project? A brand? A problem nobody else can solve?</p>
+      <a class="contact-mail reveal" href="mailto:info@thecreatorie.com">
+        <span class="contact-word">LET'S</span>
+        <span class="contact-word accent">TALK</span>
+      </a>
+      <p class="contact-email reveal"><a href="mailto:info@thecreatorie.com">info@thecreatorie.com</a></p>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <span>© <span id="year"></span> DEVGODWIN · The Creatorie</span>
+    <span>Designed &amp; built by hand — and a little AI.</span>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
