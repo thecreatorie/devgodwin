@@ -10,33 +10,53 @@ export type Work = {
 
 export const works: Work[] = [
   {
-    title: "Evergreen Money",
+    title: "LOUD Collective",
     description:
-      "Digital edition of CEO Bill Harris's book, built in Plasmic and shipped in time with the product launch",
-    year: "2024",
-    role: "Web Developer",
-    tags: ["Plasmic", "Web", "Publishing"],
-    image: "/assets/images/section/work-1.jpg",
+      "Cannabis lifestyle e-commerce — smoke gear, apparel, and CBD on a fully compliant storefront",
+    year: "2020",
+    role: "Design & Development",
+    tags: ["E-Commerce", "Cannabis", "Compliance"],
+    image: "/assets/images/section/godwin-work-1.jpg",
     logo: "/assets/images/logo/logo-2.svg",
   },
   {
-    title: "The Creatorie",
+    title: "Plant Buddies",
     description:
-      "Claude-powered refactoring systems that modernize SaaS codebases with AI-driven automation",
+      "Home grow kits and LA's cannabis relief program — ordering, free delivery, and installation",
+    year: "2020",
+    role: "Design & Development",
+    tags: ["Wix", "E-Commerce", "Cannabis"],
+    image: "/assets/images/section/godwin-work-2.jpg",
+    logo: "/assets/images/logo/logo-2.svg",
+  },
+  {
+    title: "Cymantix Spatial Design",
+    description:
+      "Portfolio for an immersive lighting and projection studio — video-rich, cinematic, and dark",
     year: "2025",
-    role: "Founder & Engineer",
-    tags: ["AI", "SaaS", "Automation"],
-    image: "/assets/images/section/work-2.jpg",
+    role: "Design & Development",
+    tags: ["Portfolio", "Motion", "Custom Build"],
+    image: "/assets/images/section/godwin-work-3.jpg",
     logo: "/assets/images/logo/logo-2.svg",
   },
   {
-    title: "MDM Design Studio",
+    title: "Order of the Fire",
     description:
-      "Full brand, marketing, and web ownership for a working design studio — online and in print",
-    year: "2022",
-    role: "Creative Director",
-    tags: ["Brand", "Web", "Print"],
-    image: "/assets/images/section/work-3.jpg",
+      "Fire performance troupe site built to book shows — dancers, breathers, and a full cast of acts",
+    year: "2024",
+    role: "Design & Development",
+    tags: ["Brand", "Booking", "Showcase"],
+    image: "/assets/images/section/godwin-work-4.jpg",
+    logo: "/assets/images/logo/logo-2.svg",
+  },
+  {
+    title: "Pole Fitness Studio",
+    description:
+      "Class and party booking for a Vegas pole fitness studio — 30+ instructors, every level welcome",
+    year: "2023",
+    role: "Design & Development",
+    tags: ["Booking", "Brand", "Marketing"],
+    image: "/assets/images/section/godwin-work-5.jpg",
     logo: "/assets/images/logo/logo-2.svg",
   },
 ];
