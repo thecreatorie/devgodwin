@@ -18,7 +18,7 @@ export function UserSidebar({ variant = "v1" }: UserSidebarProps) {
                           {/* <Image
                            width={468}
                             height={856}
-                            src="/assets/images/avatar/avatar.png"
+                            src="/assets/images/avatar/avatar.jpg"
                             alt="Avatar"
                              priority
                           /> */}
@@ -26,9 +26,9 @@ export function UserSidebar({ variant = "v1" }: UserSidebarProps) {
                         <img
                             width={468}
                             height={856}
-                            src="/assets/images/avatar/avatar.png"
+                            src="/assets/images/avatar/avatar.jpg"
                             alt="Avatar"
-          
+
                         />
                     </div>
               

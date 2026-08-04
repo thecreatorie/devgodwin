@@ -23,7 +23,7 @@ All resume content lives in `src/data/`:
 
 Other things to swap:
 
-- Avatar: `public/assets/images/avatar/avatar.png` (the card photo)
+- Avatar: `public/assets/images/avatar/avatar.jpg` (the card photo)
 - Background video: `public/assets/images/overlay-3.mp4`
 - "Download CV" button in `src/components/UserSidebar.tsx` — point it at your CV file
 - Social links in `profile.ts` are `#` placeholders
