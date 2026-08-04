@@ -89,4 +89,14 @@ export const works: Work[] = [
     image: "/assets/images/section/godwin-work-8.jpg",
     logo: "/assets/images/logo/logo-2.svg",
   },
+  {
+    title: "Evergreen Money",
+    description:
+      "High-yield checking built on US Treasury Bills — fintech site shipped alongside the digital edition of CEO Bill Harris's book",
+    year: "2024",
+    role: "Web Developer",
+    tags: ["Fintech", "Plasmic", "Web"],
+    image: "/assets/images/section/godwin-work-9.jpg",
+    logo: "/assets/images/logo/logo-2.svg",
+  },
 ];

@@ -26,7 +26,7 @@ export function Footer() {
               fill="black"
               fillOpacity="0.72"
             >
-              GODWIN
+              CAROLINE
             </text>
           </svg>
         </div>

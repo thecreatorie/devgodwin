@@ -15,7 +15,7 @@ export function Intro() {
                     />
                 </div>
                 <div className="author-info letter-space--05">
-                    <p className="info_name text-black">Godwin</p>
+                    <p className="info_name text-black">Caroline</p>
                     <p className="info_duty text-black-50 text-body-3">
                         Developer & Creative Director
                     </p>
@@ -80,13 +80,13 @@ export function Intro() {
                 </div>
                 <div className="wg-counter">
                     <p className="counter h1 d-flex font-2 letter-space--2">
-                        <span className="number" data-speed="1000" data-to="6">
+                        <span className="number" data-speed="1000" data-to="11">
                             0
                         </span>
                         +
                     </p>
                     <p className="text text-black-56 text-body-3">
-                        Industries served
+                        Languages mastered
                     </p>
                 </div>
             </div>

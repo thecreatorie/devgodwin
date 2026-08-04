@@ -8,7 +8,7 @@ export type Testimonial = {
 // Placeholder quotes — swap in real client testimonials before launch.
 export const testimonials: Testimonial[] = [
   {
-    text: "Godwin took our platform from legacy mess to modern stack fast, and the AI-assisted refactoring meant nothing broke along the way.",
+    text: "Caroline took our platform from legacy mess to modern stack fast, and the AI-assisted refactoring meant nothing broke along the way.",
     authorName: "SaaS Client",
     authorRole: "Platform Refactor",
     image: "/assets/images/section/tes-1.jpg",
@@ -20,7 +20,7 @@ export const testimonials: Testimonial[] = [
     image: "/assets/images/section/tes-2.jpg",
   },
   {
-    text: "Our industry makes compliance hard. Godwin built us something beautiful that also passed every review we threw at it.",
+    text: "Our industry makes compliance hard. Caroline built us something beautiful that also passed every review we threw at it.",
     authorName: "Regulated-Industry Client",
     authorRole: "Compliance Build",
     image: "/assets/images/section/tes-3.jpg",

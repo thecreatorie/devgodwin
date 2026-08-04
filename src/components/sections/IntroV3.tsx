@@ -9,7 +9,7 @@ export function IntroV3() {
           <img loading="lazy" width={23} height={31} src="/assets/images/avatar/avatar-boy.png" alt="avatar" />
         </div>
         <div className="author-info letter-space--05">
-          <p className="info_name text-black">Godwin</p>
+          <p className="info_name text-black">Caroline</p>
           <p className="info_duty text-black-50 text-body-3">Developer &amp; Creative Director</p>
         </div>
       </div>
