@@ -59,4 +59,34 @@ export const works: Work[] = [
     image: "/assets/images/section/godwin-work-5.jpg",
     logo: "/assets/images/logo/logo-2.svg",
   },
+  {
+    title: "MDM Design Studio",
+    description:
+      "Custom furniture, cabinetry, and millwork studio — brand, site, and marketing owned end to end",
+    year: "2022",
+    role: "Creative Director",
+    tags: ["Brand", "Web", "Print"],
+    image: "/assets/images/section/godwin-work-6.jpg",
+    logo: "/assets/images/logo/logo-2.svg",
+  },
+  {
+    title: "FACET",
+    description:
+      "Made-to-order furniture collection — pieces, materials, and finishes in a gallery-clean catalog",
+    year: "2021",
+    role: "Design & Development",
+    tags: ["Furniture", "Catalog", "Brand"],
+    image: "/assets/images/section/godwin-work-7.jpg",
+    logo: "/assets/images/logo/logo-2.svg",
+  },
+  {
+    title: "LVPR — Las Vegas Pole Rentals",
+    description:
+      "Same-day portable pole rentals in Las Vegas — booking, rates, and reviews for the studio's rental arm",
+    year: "2024",
+    role: "Design & Development",
+    tags: ["Booking", "Local Business", "Brand"],
+    image: "/assets/images/section/godwin-work-8.jpg",
+    logo: "/assets/images/logo/logo-2.svg",
+  },
 ];
