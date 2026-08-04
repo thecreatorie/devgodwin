@@ -6,8 +6,9 @@ export type Brand = {
 };
 
 export const brands: Brand[] = [
-  { name: "Brand 1", light: "/assets/images/brand/brand-1.svg", dark: "/assets/images/brand/brand-1_dark.svg", width: 132 },
-  { name: "Brand 2", light: "/assets/images/brand/brand-2.svg", dark: "/assets/images/brand/brand-2_dark.svg", width: 122 },
-  { name: "Brand 3", light: "/assets/images/brand/brand-3.svg", dark: "/assets/images/brand/brand-3_dark.svg", width: 125 },
-  { name: "Brand 4", light: "/assets/images/brand/brand-4.svg", dark: "/assets/images/brand/brand-4_dark.svg", width: 112 },
+  { name: "Golden Sol Circus", light: "/assets/images/brand/godwin-golden-sol.png", dark: "/assets/images/brand/godwin-golden-sol_dark.png", width: 48 },
+  { name: "Burlesque To Go", light: "/assets/images/brand/godwin-burlesque.png", dark: "/assets/images/brand/godwin-burlesque_dark.png", width: 135 },
+  { name: "Flash Fashion", light: "/assets/images/brand/godwin-flash-fashion.png", dark: "/assets/images/brand/godwin-flash-fashion_dark.png", width: 48 },
+  { name: "MDM Design Studio", light: "/assets/images/brand/godwin-mdm.png", dark: "/assets/images/brand/godwin-mdm_dark.png", width: 24 },
+  { name: "FACET", light: "/assets/images/brand/godwin-facet.png", dark: "/assets/images/brand/godwin-facet_dark.png", width: 63 },
 ];
