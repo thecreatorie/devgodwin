@@ -23,7 +23,7 @@ export function Intro() {
             </div>
 
             <h1 className="intro-title letter-space--2 ">
-                I’m building <span className="is-bg">products</span> <br />
+                I’m building <span className="is-bg">websites</span> <br />
                 <span className="type-2 is-bg">& brands</span> that people
                 remember
             </h1>
