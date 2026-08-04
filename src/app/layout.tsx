@@ -6,9 +6,9 @@ import SmoothScroll from "@/hooks/SmoothScroll";
 import "./globals.scss";
 
 export const metadata: Metadata = {
-    title: "Godwin — Developer & Creative Director",
+    title: "Caroline — Developer & Creative Director",
     description:
-        "Full-stack developer and creative director. Eight years shipping products end to end — web, brand, and AI-powered systems. Based in Los Angeles, CA.",
+        "Full-stack developer and creative director. Eight years shipping products end to end — web, brand, and AI-powered systems. Based in Las Vegas, NV.",
     authors: [{ name: "The Creatorie" }],
     icons: {
         icon: "/assets/images/logo/favicon.svg",

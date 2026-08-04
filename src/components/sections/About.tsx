@@ -13,12 +13,13 @@ export function About() {
         and full-stack speed
       </h4>
       <p className="s-desc text-black-56 scrolling-effect effectTop">
-        I combine full-stack development, brand identity, and AI-powered tooling
-        <br className="d-none d-lg-block" /> to help businesses ship faster without losing their personality. <br />
+        I combine full-stack development, brand identity, and AI integration
+        <br className="d-none d-lg-block" /> to help businesses of every size and style ship faster <br className="d-none d-lg-block" />
+        without losing their personality. <br />
         <br />
-        Every project gets both strategy and style—compliance-grade builds for <br className="d-none d-lg-block" />
-        regulated industries, mobile-first design, and creative direction that <br className="d-none d-lg-block" />
-        carries from screen to print.
+        Every project gets both strategy and style—agile delivery, <br className="d-none d-lg-block" />
+        compliance-grade builds for regulated industries, mobile-first design, <br className="d-none d-lg-block" />
+        and creative direction that carries from screen to print.
       </p>
       <ul className="award-list">
         {awards.map((a) => (

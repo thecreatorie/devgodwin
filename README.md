@@ -1,4 +1,4 @@
-# Godwin — Personal Resume Site
+# Caroline — Personal Resume Site (The Creatorie)
 
 Cinematic portfolio built on the Isak Next.js theme (bg-video-v2 variant): full-screen background video, sticky profile card, GSAP scroll animations, and a floating section-nav rail.
 
