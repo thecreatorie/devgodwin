@@ -1,37 +1,35 @@
-# DEVGODWIN — Personal Resume Site
+# Godwin — Personal Resume Site
 
-Cinematic, background-video style personal resume for a full-stack developer,
-designer, and creative director. Zero dependencies — pure HTML/CSS/JS. Deploys
-as-is to Vercel, Netlify, or GitHub Pages.
+Cinematic portfolio built on the Isak Next.js theme (bg-video-v2 variant): full-screen background video, sticky profile card, GSAP scroll animations, and a floating section-nav rail.
 
-## Structure
+## Develop
 
-- `index.html` — all content (hero, experience, expertise, about, contact)
-- `styles.css` — dark cinematic theme, responsive, reduced-motion friendly
-- `script.js` — canvas aurora background, scroll reveals, nav, progress bar
-
-## Background video
-
-The site ships with an animated canvas "aurora" background that always works.
-To use a real video loop instead, drop a file at:
-
-```
-assets/bg-video.mp4
+```bash
+npm install
+npm run dev      # http://localhost:3000
+npm run build    # production build
 ```
 
-It will fade in over the canvas automatically (muted, looped, mobile-safe).
-If the file is missing, the canvas background carries the scene — nothing breaks.
+## Customize
 
-## Customizing
+All resume content lives in `src/data/`:
 
-- Name/brand: search for `DEVGODWIN` in `index.html`
-- Accent color: `--accent` in `styles.css`
-- Contact email: `info@thecreatorie.com` in `index.html`
+- `profile.ts` — name, bio, email, rotating titles, socials
+- `education.ts` — experience timeline (periods are approximate — adjust)
+- `works.ts` — work highlights
+- `services.ts`, `tech.ts` — services and stack
+- `awards.ts` — career highlights list in the About section
+- `testimonials.ts` — **placeholder quotes, swap in real ones before launch**
 
-## Local preview
+Other things to swap:
 
-```
-npx serve .
-```
+- Avatar: `public/assets/images/avatar/avatar.png` (the card photo)
+- Background video: `public/assets/images/overlay-3.mp4`
+- "Download CV" button in `src/components/UserSidebar.tsx` — point it at your CV file
+- Social links in `profile.ts` are `#` placeholders
 
-or open `index.html` directly in a browser.
+## Theme variants
+
+The template's other demos remain available at `/v2`, `/v3`, `/light`, `/bg-video`, `/bg-item`, etc. The homepage is the `bg-video-v2` configuration.
+
+Deploys as a standard Next.js app on Vercel with zero config.
