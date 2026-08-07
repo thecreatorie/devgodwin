@@ -17,7 +17,7 @@ export const works: Work[] = [
     role: "Design & Development",
     tags: ["E-Commerce", "Cannabis", "Compliance"],
     image: "/assets/images/section/godwin-work-1.jpg",
-    logo: "/assets/images/logo/logo-2.svg",
+    logo: "/assets/images/logo/mark-creatorie.png",
   },
   {
     title: "Plant Buddies",
@@ -27,7 +27,7 @@ export const works: Work[] = [
     role: "Design & Development",
     tags: ["Wix", "E-Commerce", "Cannabis"],
     image: "/assets/images/section/godwin-work-2.jpg",
-    logo: "/assets/images/logo/logo-2.svg",
+    logo: "/assets/images/logo/mark-creatorie.png",
   },
   {
     title: "Cymantix Spatial Design",
@@ -37,7 +37,7 @@ export const works: Work[] = [
     role: "Design & Development",
     tags: ["Portfolio", "Motion", "Custom Build"],
     image: "/assets/images/section/godwin-work-3.jpg",
-    logo: "/assets/images/logo/logo-2.svg",
+    logo: "/assets/images/logo/mark-creatorie.png",
   },
   {
     title: "Order of the Fire",
@@ -47,7 +47,7 @@ export const works: Work[] = [
     role: "Design & Development",
     tags: ["Brand", "Booking", "Showcase"],
     image: "/assets/images/section/godwin-work-4.jpg",
-    logo: "/assets/images/logo/logo-2.svg",
+    logo: "/assets/images/logo/mark-creatorie.png",
   },
   {
     title: "Pole Fitness Studio",
@@ -57,7 +57,7 @@ export const works: Work[] = [
     role: "Design & Development",
     tags: ["Booking", "Brand", "Marketing"],
     image: "/assets/images/section/godwin-work-5.jpg",
-    logo: "/assets/images/logo/logo-2.svg",
+    logo: "/assets/images/logo/mark-creatorie.png",
   },
   {
     title: "MDM Design Studio",
@@ -67,7 +67,7 @@ export const works: Work[] = [
     role: "Creative Director",
     tags: ["Brand", "Web", "Print"],
     image: "/assets/images/section/godwin-work-6.jpg",
-    logo: "/assets/images/logo/logo-2.svg",
+    logo: "/assets/images/logo/mark-mdm.png",
   },
   {
     title: "FACET",
@@ -77,7 +77,7 @@ export const works: Work[] = [
     role: "Design & Development",
     tags: ["Furniture", "Catalog", "Brand"],
     image: "/assets/images/section/godwin-work-7.jpg",
-    logo: "/assets/images/logo/logo-2.svg",
+    logo: "/assets/images/logo/mark-facet.png",
   },
   {
     title: "LVPR — Las Vegas Pole Rentals",
@@ -87,7 +87,7 @@ export const works: Work[] = [
     role: "Design & Development",
     tags: ["Booking", "Local Business", "Brand"],
     image: "/assets/images/section/godwin-work-8.jpg",
-    logo: "/assets/images/logo/logo-2.svg",
+    logo: "/assets/images/logo/mark-creatorie.png",
   },
   {
     title: "Evergreen Money",
@@ -97,6 +97,16 @@ export const works: Work[] = [
     role: "Web Developer",
     tags: ["Fintech", "Plasmic", "Web"],
     image: "/assets/images/section/godwin-work-9.jpg",
-    logo: "/assets/images/logo/logo-2.svg",
+    logo: "/assets/images/logo/mark-creatorie.png",
+  },
+  {
+    title: "Brilliant Distinctions — Allergan",
+    description:
+      "Complete redesign of the Brilliant Distinctions membership program at MXM — new website, print materials, and email advertising",
+    year: "2017",
+    role: "Designer",
+    tags: ["Web", "Print", "Email"],
+    image: "/assets/images/section/godwin-work-10.jpg",
+    logo: "/assets/images/logo/mark-creatorie.png",
   },
 ];

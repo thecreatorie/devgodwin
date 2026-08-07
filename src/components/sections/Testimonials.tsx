@@ -20,29 +20,13 @@ export function Testimonials() {
       <div className="heading overflow-hidden">
         <div className="head-left">
           <h4 className="s-title letter-space--2 text-black-72 split-text effect-blur-fade">
-            Here&apos;s what <br className="d-none d-lg-block" />
-            people are saying
+            What clients say <br className="d-none d-lg-block" />
+            about the work
           </h4>
-          <div className="box-counter effectFade fadeUp no-div">
-            <div className="wg-counter">
-              <p className="counter h1 d-flex font-2 letter-space--2 text-black-72">
-                <span className="number" data-speed="1000" data-to="26">
-                  0
-                </span>
-                +
-              </p>
-              <p className="text text-black-56">Finalized projects</p>
-            </div>
-            <div className="wg-counter">
-              <p className="counter h1 d-flex font-2 letter-space--2 text-black-72">
-                <span className="number" data-speed="1000" data-to="98">
-                  0
-                </span>
-                %
-              </p>
-              <p className="text text-black-56">Client satisfaction</p>
-            </div>
-          </div>
+          <p className="s-desc text-black-56 scrolling-effect effectTop">
+            Five-star reviews for MDM Design Studio, styled as social <br className="d-none d-lg-block" />
+            content over the studio&apos;s own project photography.
+          </p>
         </div>
 
         <Swiper

@@ -5,24 +5,25 @@ export type Testimonial = {
   image: string;
 };
 
-// Placeholder quotes — swap in real client testimonials before launch.
+// Five-star client reviews for MDM Design Studio, styled by Caroline as social
+// content over the studio's own project photography.
 export const testimonials: Testimonial[] = [
   {
-    text: "Caroline took our platform from legacy mess to modern stack fast, and the AI-assisted refactoring meant nothing broke along the way.",
-    authorName: "SaaS Client",
-    authorRole: "Platform Refactor",
+    text: "Fantastic artisan and a good person. If you want the best call this guy.",
+    authorName: "Vance",
+    authorRole: "MDM Design Studio client",
     image: "/assets/images/section/tes-1.jpg",
   },
   {
-    text: "One person handled our brand, our site, and our print campaigns — and all three felt like they came from the same sharp vision.",
-    authorName: "Studio Client",
-    authorRole: "Brand & Marketing",
+    text: "Michael and his crew are the best I know. If you can think of it, Michael can find a way to make it. I've worked with him and his team on several projects and have been happy with the results every time.",
+    authorName: "Peter",
+    authorRole: "MDM Design Studio client",
     image: "/assets/images/section/tes-2.jpg",
   },
   {
-    text: "Our industry makes compliance hard. Caroline built us something beautiful that also passed every review we threw at it.",
-    authorName: "Regulated-Industry Client",
-    authorRole: "Compliance Build",
+    text: "The work was done and installed very quickly and absolutely exactly what I had envisioned. I highly recommend them.",
+    authorName: "Jennifer",
+    authorRole: "MDM Design Studio client",
     image: "/assets/images/section/tes-3.jpg",
   },
 ];

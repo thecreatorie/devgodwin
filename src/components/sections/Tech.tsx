@@ -16,14 +16,6 @@ export function Tech() {
                 {techStack.map((t, i) => (
                     <li key={i} className="wg-tech">
                         <div className="tech-infor effectFade fadeUp no-div">
-                            <div className="tech_image">
-                                <ImageSwitch
-                                    light={t.image.light}
-                                    dark={t.image.dark}
-                                    width={t.image.width}
-                                    height={t.image.height}
-                                />
-                            </div>
                             <div className="tech_info">
                                 <p className="info__name fw-medium text-black-72">
                                     {t.name}

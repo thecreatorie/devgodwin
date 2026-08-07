@@ -7,45 +7,38 @@ export type TimelineItem = {
 
 export const educationItems: TimelineItem[] = [
   {
-    period: "2024 - 2025",
-    role: "Web Developer — Evergreen Money",
+    period: "2018 - Now",
+    role: "Owner — The Creatorie",
     description:
-      "Built the digital edition of CEO Bill Harris's book in Plasmic and shipped the high-yield checking site in lockstep with the fintech product launch.",
+      "My marketing agency, focused on website development, branding, marketing, advertising, social media management, and media creation for fintech and B2B technology clients.",
     icon: { light: "/assets/images/logo/logo-3.svg", dark: "/assets/images/logo/logo-4.svg", width: 32, height: 32 },
   },
   {
-    period: "2017 - Now",
-    role: "Creative Director — The Creatorie · MDM Design Studio · FACET",
+    period: "2023 - 2024",
+    role: "Web Developer — Evergreen Money",
     description:
-      "Every decision on brand, marketing, and creative development for independent clients — responsive websites, print and web collateral, social and search marketing, and brand photography.",
+      "Worked alongside CEO Bill Harris to design and develop evergreenmoney.com — a 200+ page site — and built the design workflow for the team using Plasmic, Figma, GitHub, Linear, and Photoshop.",
     icon: { light: "/assets/images/item/edu-2.svg", dark: "/assets/images/item/edu-2_dark.svg", width: 29, height: 32 },
   },
   {
     period: "2017 - 2018",
-    role: "Designer — Meredith Xcelerated Marketing",
+    role: "Designer, Allergan Account — MXM",
     description:
-      "Digital and print design on the Allergan account — BOTOX and Juvéderm — plus Acuvue, Art Van, Bob Evans, and Sun-Maid, including three major website redesigns with the UX team.",
+      "Marketing materials for Allergan brands including BOTOX, Juvéderm, and Brilliant Distinctions — print and digital ads, websites, email blasts, custom graphics, and pitch decks.",
     icon: { light: "/assets/images/item/edu-3.svg", dark: "/assets/images/item/edu-3_dark.svg", width: 120, height: 32 },
   },
   {
     period: "2016 - 2017",
     role: "Web Designer — PatientPop",
     description:
-      "Designed layouts and custom graphics for 100+ responsive medical websites on a custom Bootstrap CMS, with SEO best practices and top Google Pagespeed scores.",
+      "Designs for hundreds of doctors' practices across the US in a variety of specialties, implementing responsive HTML and CSS, custom graphics, and best SEO practices.",
     icon: { light: "/assets/images/item/edu-2.svg", dark: "/assets/images/item/edu-2_dark.svg", width: 29, height: 32 },
-  },
-  {
-    period: "2014 - 2016",
-    role: "Web Developer & Graphic Designer — Center for Advanced Public Safety",
-    description:
-      "Responsive WordPress builds for Alabama state agencies — abn.alabama.gov, atlasalabama.gov, safehomealabama.gov, and more — plus a TicketCity design internship with infographics featured on ESPN.com and CBSSports.com.",
-    icon: { light: "/assets/images/item/edu-3.svg", dark: "/assets/images/item/edu-3_dark.svg", width: 120, height: 32 },
   },
   {
     period: "2011 - 2016",
-    role: "The University of Alabama",
+    role: "Computer Science & Digital Media — University of Alabama",
     description:
-      "Bachelor's in Media with a Computer Science minor. UA Scholar, Alumni Scholar, Alumni Heritage, and Engineering Leadership awards, plus ISSA certifications in personal training and fitness nutrition.",
-    icon: { light: "/assets/images/item/edu-2.svg", dark: "/assets/images/item/edu-2_dark.svg", width: 29, height: 32 },
+      "UA Scholar, Alumni Scholar, and Alumni Heritage awards, plus the Engineering Leadership Award and Engineering President Cabinet Scholarship. Also certified as a Personal Trainer & Nutritionist through ISSA.",
+    icon: { light: "/assets/images/item/edu-3.svg", dark: "/assets/images/item/edu-3_dark.svg", width: 120, height: 32 },
   },
 ];

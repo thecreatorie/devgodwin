@@ -20,7 +20,7 @@ export function DesktopSidebar({ positionClass = "pst-v1" }: DesktopSidebarProps
   };
 
   return (
-    <div className={`sidebar-tools ${positionClass}`}>
+    <nav aria-label="Section navigation" className={`sidebar-tools ${positionClass}`}>
       <div className="nav-top">
         <div className={`tf-btn-icon toggle-switch-mode${theme === "dark" ? " active" : ""}`} onClick={handleToggle}>
           <i className="icon icon-light" />
@@ -41,6 +41,6 @@ export function DesktopSidebar({ positionClass = "pst-v1" }: DesktopSidebarProps
           <i className="icon icon-arrow-top" />
         </a>
       </div>
-    </div>
+    </nav>
   );
 }
