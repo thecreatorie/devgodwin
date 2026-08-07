@@ -1,5 +1,3 @@
-import { BrandSlider } from "@/components/BrandSlider";
-
 export function Intro() {
     return (
         <div id="home" className="section-intro flat-spacing">
@@ -91,12 +89,6 @@ export function Intro() {
                 </div>
             </div>
 
-            <p className="intro-client letter-space--05 text-body-3">
-                <i className="icon icon-global-elip" />
-                Our clients (2016-26©)
-            </p>
-
-            <BrandSlider />
         </div>
     );
 }

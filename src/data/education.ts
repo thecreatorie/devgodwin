@@ -7,31 +7,45 @@ export type TimelineItem = {
 
 export const educationItems: TimelineItem[] = [
   {
-    period: "2024 - Now",
-    role: "Independent Developer & AI Engineer — The Creatorie",
+    period: "2024 - 2025",
+    role: "Web Developer — Evergreen Money",
     description:
-      "Building Claude-powered refactoring systems for SaaS platforms and shipping end-to-end web products for clients worldwide.",
+      "Built the digital edition of CEO Bill Harris's book in Plasmic and shipped the high-yield checking site in lockstep with the fintech product launch.",
     icon: { light: "/assets/images/logo/logo-3.svg", dark: "/assets/images/logo/logo-4.svg", width: 32, height: 32 },
   },
   {
-    period: "2023 - 2024",
-    role: "Web Developer — Evergreen Money",
+    period: "2017 - Now",
+    role: "Creative Director — The Creatorie · MDM Design Studio · FACET",
     description:
-      "Built the digital edition of CEO Bill Harris's book in Plasmic, delivered in lockstep with a major product launch.",
+      "Every decision on brand, marketing, and creative development for independent clients — responsive websites, print and web collateral, social and search marketing, and brand photography.",
     icon: { light: "/assets/images/item/edu-2.svg", dark: "/assets/images/item/edu-2_dark.svg", width: 29, height: 32 },
   },
   {
-    period: "2018 - 2023",
-    role: "Full-Stack Developer & Creative Director — Independent",
+    period: "2017 - 2018",
+    role: "Designer — Meredith Xcelerated Marketing",
     description:
-      "Owned design, development, and brand for clients in high-compliance industries — cannabis and adult entertainment — plus MDM Design Studio and a pole fitness studio, across web and print.",
+      "Digital and print design on the Allergan account — BOTOX and Juvéderm — plus Acuvue, Art Van, Bob Evans, and Sun-Maid, including three major website redesigns with the UX team.",
     icon: { light: "/assets/images/item/edu-3.svg", dark: "/assets/images/item/edu-3_dark.svg", width: 120, height: 32 },
   },
   {
-    period: "2016 - 2018",
-    role: "Developer & Designer — PatientPop · Meredith · Allergan",
+    period: "2016 - 2017",
+    role: "Web Designer — PatientPop",
     description:
-      "Joined PatientPop in its startup phase and shipped creative work with Meredith for Allergan in Culver City.",
+      "Designed layouts and custom graphics for 100+ responsive medical websites on a custom Bootstrap CMS, with SEO best practices and top Google Pagespeed scores.",
+    icon: { light: "/assets/images/item/edu-2.svg", dark: "/assets/images/item/edu-2_dark.svg", width: 29, height: 32 },
+  },
+  {
+    period: "2014 - 2016",
+    role: "Web Developer & Graphic Designer — Center for Advanced Public Safety",
+    description:
+      "Responsive WordPress builds for Alabama state agencies — abn.alabama.gov, atlasalabama.gov, safehomealabama.gov, and more — plus a TicketCity design internship with infographics featured on ESPN.com and CBSSports.com.",
+    icon: { light: "/assets/images/item/edu-3.svg", dark: "/assets/images/item/edu-3_dark.svg", width: 120, height: 32 },
+  },
+  {
+    period: "2011 - 2016",
+    role: "The University of Alabama",
+    description:
+      "Bachelor's in Media with a Computer Science minor. UA Scholar, Alumni Scholar, Alumni Heritage, and Engineering Leadership awards, plus ISSA certifications in personal training and fitness nutrition.",
     icon: { light: "/assets/images/item/edu-2.svg", dark: "/assets/images/item/edu-2_dark.svg", width: 29, height: 32 },
   },
 ];
