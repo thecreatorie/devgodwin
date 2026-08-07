@@ -10,19 +10,19 @@ export type Service = {
 export const services: Service[] = [
   {
     id: "service-1",
-    title: "Full-Stack Development",
+    title: "Web Development",
     description:
-      "Eight years shipping products end to end as an independent developer — front-end, back-end, and everything between — including compliance-grade builds for regulated industries.",
-    tags: ["Web Apps", "APIs", "Compliance Builds"],
+      "Full-stack builds from scratch or on any platform — Plasmic, WordPress, Shopify, Wix, Webflow, Squarespace, or standalone on GitHub. Recent work includes a 200+ page fintech site built alongside its CEO.",
+    tags: ["Full-Stack", "Any Platform", "AI Integration"],
     images: ["/assets/images/section/service-1.jpg", "/assets/images/section/service-2.jpg"],
     expanded: true,
   },
   {
     id: "service-2",
-    title: "UI/UX & Mobile-First Design",
+    title: "Marketing & Advertising",
     description:
-      "Interfaces designed mobile-first and built to convert — clean layouts, considered interactions, and experiences that feel effortless on every screen.",
-    tags: ["Mobile-First", "Interfaces", "Prototyping"],
+      "Print and digital campaigns for national brands and local businesses alike — email blasts, paid social, pitch decks, and trade show materials, with SEO built in from the start.",
+    tags: ["Campaigns", "Email", "SEO"],
     images: ["/assets/images/section/service-3.jpg", "/assets/images/section/service-4.jpg"],
     expanded: false,
   },
@@ -30,8 +30,8 @@ export const services: Service[] = [
     id: "service-3",
     title: "Brand & Creative Direction",
     description:
-      "Cohesive brand systems that carry from screen to print — identity, campaigns, and full marketing ownership like the studio and fitness brands I've run end to end.",
-    tags: ["Identity", "Campaigns", "Print"],
+      "Identity systems that carry from screen to print — logos, collateral, social content, and brand photography shot and produced in-house.",
+    tags: ["Identity", "Social", "Photography"],
     images: ["/assets/images/section/service-5.jpg", "/assets/images/section/service-6.jpg"],
     expanded: false,
   },

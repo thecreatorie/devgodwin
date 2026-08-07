@@ -8,18 +8,18 @@ export function About() {
         About
       </div>
       <h4 className="s-title letter-space--2 text-black-72 split-text effect-blur-fade">
-        Building brands and <br className="d-none d-lg-block" />
-        products with clarity, creativity, <br className="d-none d-lg-block" />
+        Building websites and <br className="d-none d-lg-block" />
+        brands with clarity, creativity, <br className="d-none d-lg-block" />
         and full-stack speed
       </h4>
       <p className="s-desc text-black-56 scrolling-effect effectTop">
-        I combine full-stack development, brand identity, and AI integration
-        <br className="d-none d-lg-block" /> to help businesses of every size and style ship faster <br className="d-none d-lg-block" />
-        without losing their personality. <br />
+        I&apos;m a versatile professional based in Las Vegas — a full-stack developer, <br className="d-none d-lg-block" />
+        marketing director, and circus performer. My background spans medical <br className="d-none d-lg-block" />
+        technology, corporations, startups, and B2B agencies. <br />
         <br />
-        Every project gets both strategy and style—agile delivery, <br className="d-none d-lg-block" />
-        compliance-grade builds for regulated industries, mobile-first design, <br className="d-none d-lg-block" />
-        and creative direction that carries from screen to print.
+        Recently I&apos;ve focused on short-term contracts through my own marketing <br className="d-none d-lg-block" />
+        agency, as well as fintech and B2B technology clients — everything from <br className="d-none d-lg-block" />
+        a 200-page fintech build to national pharmaceutical campaigns.
       </p>
       <ul className="award-list">
         {awards.map((a) => (

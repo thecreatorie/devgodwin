@@ -20,7 +20,7 @@ export function MobileMenu() {
             <span />
           </div>
         </div>
-        <div className={`nav-mobile-list${open ? " open" : ""}`}>
+        <nav aria-label="Mobile navigation" className={`nav-mobile-list${open ? " open" : ""}`}>
           <ul className="nav-mobile-item">
             {navItems.map((item, i) => (
               <div key={item.href + i}>
@@ -34,7 +34,7 @@ export function MobileMenu() {
               </div>
             ))}
           </ul>
-        </div>
+        </nav>
       </div>
       <div className={`overlay-pop${open ? " open" : ""}`} onClick={toggle} />
     </>

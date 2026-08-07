@@ -30,12 +30,15 @@ export function Contact() {
         )}
         <div className="form-content effectFade fadeUp no-div">
           <fieldset className="field-ip">
+            <label htmlFor="name" className="visually-hidden">Your Name</label>
             <input type="text" name="name" id="name" placeholder="Your Name *" required />
           </fieldset>
           <fieldset className="field-ip">
+            <label htmlFor="email" className="visually-hidden">Email Address</label>
             <input type="email" name="email" id="email" placeholder="Email Address *" required />
           </fieldset>
           <fieldset className="field-ip">
+            <label htmlFor="message" className="visually-hidden">Project Description</label>
             <input type="text" name="message" id="message" placeholder="Project Description" />
           </fieldset>
         </div>
